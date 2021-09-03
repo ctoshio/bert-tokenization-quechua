@@ -1,5 +1,5 @@
 # bert-tokenization-quechua
-El bert-tokenization-quechua fue entrado con corpus solamente con quechua sureño (collao y chanka). El tokenizador uso el enfoque de Byte-level BPE con un vocabulario de 52000 tokens de subpalabras.
+El bert-tokenization-quechua fue entrenado con corpus solamente en quechua sureño (collao y chanka). Para el tokenizador se uso el enfoque de Byte-level BPE con un vocabulario de 52000 tokens de subpalabras.
 
 ## Acerca del tokenizador
 |Modulo| Descarga |

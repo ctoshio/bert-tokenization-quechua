@@ -18,14 +18,14 @@ tokenizer = ByteLevelBPETokenizer(
     "./merges.txt",
 )
 ```
-```
+```python
 tokenizer._tokenizer.post_processor = BertProcessing(
     ("</s>", tokenizer.token_to_id("</s>")),
     ("<s>", tokenizer.token_to_id("<s>")),
 )
 tokenizer.enable_truncation(max_length=512)
 ``` 
-```
+```python
 tokenizer.encode("allinllachu manan allinlla huk wasipita").tokens
 ```
     ['<s>',
